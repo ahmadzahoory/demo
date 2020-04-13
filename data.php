@@ -26,12 +26,12 @@ use Aws\SecretsManager\SecretsManagerClient;
 use Aws\Exception\AwsException;
 
 $client = new SecretsManagerClient([
-	credentials' => [
-        'key'    => 'AKIAXK3IQNIIXSWI5B7B',
-        'secret' => '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',
+	'credentials' => [
+        'key'    => 'AKIAXK3IQNIIS27L7CDN',
+        'secret' => '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',
     	],
     'version' => '2017-10-17',
-    'region' => 'ap-south-1',
+    'region' => 'us-east-1',
 ]);
 
 try {
